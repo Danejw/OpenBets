@@ -1166,7 +1166,10 @@
         },
         "runtime": {
           "bin/placeholder/OpenBets.Client.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "OpenBets.Shared/1.0.0": {
         "type": "project",
